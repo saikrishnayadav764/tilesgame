@@ -1,0 +1,30 @@
+.welbox{
+    border: 3px solid black;
+    margin: 20px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    text-decoration: underline;
+}
+
+.nameInput{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.play{
+    width: 90px;
+    padding: 3px;
+}
+
+.title{
+    text-decoration: underline;
+}

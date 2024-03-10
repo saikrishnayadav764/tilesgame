@@ -1,0 +1,68 @@
+.tileImg{
+    width: 20px;
+    height: 20px;
+}
+
+.tileB{
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.tileBox {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 100px; */
+  }
+
+  .completeBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60vh;
+  }
+  
+.gameBox{
+    border: 4px solid black;
+    margin: 10px;
+}
+
+.scoreTime{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.welcome{
+    text-align: right;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.score,.time{
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.gameTitle{
+    text-decoration: underline;
+}
+
+#finished{
+    margin-bottom: 50px;
+}
+
+.finalScore, .finalTime{
+    margin: 0;
+    text-decoration: underline;
+    color: orangered;
+}
