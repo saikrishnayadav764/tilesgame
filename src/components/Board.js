@@ -16,15 +16,15 @@ function Board({ user }) {
     const imageFilenames = Object.values(images);
     const totalImages = 32;
 
-    // Calculate the number of times each image should appear
+    // Calculating the number of times each image should appear
     const imagesPerType = totalImages / imageFilenames.length;
 
-    // Create an array with each image repeated equally
+    // Creating an array with each image repeated equally
     const equalDistributionArray = imageFilenames.reduce((acc, image) => {
       return acc.concat(Array.from({ length: imagesPerType }, () => image));
     }, []);
 
-    // Shuffle the array to randomize the order
+    // Shuffling the array to randomize the order
     const randomImagesArray = equalDistributionArray.sort(
       () => Math.random() - 0.5
     );
